@@ -13,7 +13,7 @@ export default function Auth() {
                 <div className={styles.content}>
                     <div className={styles.inBox}>
                         <p className={styles.label}>Логин <span className={styles.star}>*</span></p>
-                        <input type="text" name="Логин" id="loginBox" placeholder="Введите пароль"/>
+                        <input type="text" name="Логин" id="loginBox" placeholder="Введите логин"/>
                         <p className={styles.addition}>Только латинские буквы</p>
                     </div>
                     <div className={styles.inBox}>
